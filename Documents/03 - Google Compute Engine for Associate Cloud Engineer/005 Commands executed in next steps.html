@@ -1,0 +1,13 @@
+<p>Here are some of the commands we would execute in the next few steps:</p><p>You can refer back to this if you have problems. Good Luck.</p><p><br></p><pre class="prettyprint linenums">sudo su
+apt update 
+apt install apache2
+ls /var/www/html
+echo "Hello World!"
+echo "Hello World!" &gt; /var/www/html/index.html
+echo $(hostname)
+echo $(hostname -i)
+echo "Hello World from $(hostname)"
+echo "Hello World from $(hostname) $(hostname -i)"
+echo "Hello world from $(hostname) $(hostname -i)" &gt; /var/www/html/index.html
+sudo service apache2 start
+</pre>
